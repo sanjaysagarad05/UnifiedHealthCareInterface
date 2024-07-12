@@ -1,0 +1,53 @@
+.form-fileupload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+.choose {
+  background-color: rgb(83, 198, 233);
+    color: #fff;
+    padding: 10px 38px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.choose:hover {
+  background-color: rgb(83, 198, 233);
+}
+
+#file-upload {
+  display: none;
+}
+
+.textArea {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.upload {
+  background-color: rgb(83, 198, 233);
+    color: #fff;
+    padding: 10px 38px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.upload:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload:hover {
+  background-color: rgb(83, 198, 233);
+}
+button.upload{
+  margin-left: 20px;
+}

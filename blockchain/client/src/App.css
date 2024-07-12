@@ -1,0 +1,89 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  box-shadow: 0.4rem 0.4rem 0#92d6f9;
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 3em;
+}
+
+.share {
+  background-color: rgb(83, 198, 233);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.share:hover {
+  background-color: rgb(83, 198, 233);
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.record-container {
+  margin-top: 20px;
+}
+
+.file-upload-container {
+  margin-top: 20px;
+}
+
+.display-container {
+  margin-top: 20px;
+}
+
+/* Modal Styles (customize based on your modal component) */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.acc {
+  font-size: 1.3em;
+  margin-left: 15px;
+  padding-left: 525px;
+  margin-bottom: 26px;
+
+}
+.Appinner{
+  border: 2px solid rgb(83, 198, 233);
+  box-shadow: 0.4rem 0.4rem 0#92d6f9;
+  border-radius: 10px;
+}

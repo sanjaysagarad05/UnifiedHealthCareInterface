@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "create-react-app": "^5.0.1",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.1",
+    "react-speech-recognition": "^3.10.0"
+  }
+}

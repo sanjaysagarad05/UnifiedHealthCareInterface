@@ -1,0 +1,117 @@
+/* App.css */
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid ;
+    border-color: #00A9FF;
+    box-shadow: 0.4rem 0.4rem 0#92d6f9;
+    margin: 50px 50px;
+    padding: 55px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  
+  .login {
+    margin-bottom: 20px; /* Adds space between "Login" and the form */
+  }
+  
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button.loginbutton{
+  
+      background-color: #00A9FF;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-right: 2px;
+      margin-bottom: 20px;
+      transition: background-color 0.3s;
+  }
+  input {
+    padding: 20px;
+    margin: 10px 0;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin: 20px 0;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  p {
+    color: black;
+    margin-top: 15px;
+  }
+  .login-page img {
+    width: 800px; /* Set the width as needed */
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  .loginimage {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .form-heading {
+    font-size: 2.2em; /* Example: Adjust font size */
+    color: #333; /* Example: Set text color */
+    margin-bottom: 15px; /* Example: Add margin at the bottom */
+    font-weight: 700;
+    font-family: "roboto", arial, helvetica;
+  }
+  
+  .form-login {
+    padding: 8px;
+    width: 370px;
+    border-radius: 5px; /* Rounded corners for input */
+    position: relative;
+  }
+  
+  input::placeholder {
+    color: #999; /* Placeholder text color */
+    position: absolute;
+    left: 8px; /* Adjust position as needed */
+    top: 50%; /* Adjust position as needed */
+    transform: translateY(-50%);
+  }
+  
+  /* Create a pseudo-element to simulate the background for the placeholder */
+  input::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; /* Same border radius as input */
+    background-color: #f0f0f0; /* Background color for the "placeholder" */
+    pointer-events: none; /* Allows clicking through the pseudo-element */
+    z-index: -1; /* Move the pseudo-element behind the text */
+  }
+  
